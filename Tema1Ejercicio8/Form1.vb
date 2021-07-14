@@ -9,6 +9,11 @@
     End Sub
 
     Private Sub TextBoxAltitude_TextChanged(sender As Object, e As EventArgs) Handles TextBoxAltitude.TextChanged
+        CalculateSpeed()
+
+    End Sub
+
+    Private Sub CalculateSpeed()
         Dim altitude As Decimal
         Dim speed As Decimal
         Dim strAltitude As String
@@ -19,7 +24,6 @@
             speed = Math.Sqrt(2 * 9.8 * altitude)
             LabelSpeed.Text = Format(speed, "0.00")
         End If
-
     End Sub
 
     Private Sub OnlyNumbers(e As KeyPressEventArgs)

@@ -38,7 +38,7 @@ Partial Class Form1
         Me.GroupBox1.Controls.Add(Me.Label1)
         Me.GroupBox1.Location = New System.Drawing.Point(12, 12)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(776, 160)
+        Me.GroupBox1.Size = New System.Drawing.Size(726, 160)
         Me.GroupBox1.TabIndex = 0
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Lanzamiento vertical"
@@ -93,7 +93,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 347)
+        Me.ClientSize = New System.Drawing.Size(748, 347)
         Me.Controls.Add(Me.LabelSpeed)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.GroupBox1)
